@@ -3,3 +3,7 @@
 #include <functional>
 
 // tutaj funkcja polejSosem
+template <typename T>
+size_t polejSosem(const Tagliatelle &tag,const T &sos){
+return sos.polej(tag);
+}

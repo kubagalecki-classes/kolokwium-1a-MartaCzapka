@@ -14,7 +14,7 @@ double ileMaki(unsigned P) const{
 // tutaj klasa Penne
 
 // tutaj definicja metody gotujMakaron
-Makaron* Makaron::gotujMakaron(string a){
+Makaron* Makaron::gotujMakaron(string& a){
 if(a.front()==a.back())
 {
   return new Tagliatelle(3.14,0.42,0.1);
