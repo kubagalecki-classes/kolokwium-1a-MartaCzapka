@@ -6,7 +6,7 @@ class Makaron{
   public:
   virtual double ileMaki(unsigned)const;
   static Makaron* gotujMakaron(string);
-  ~Makaron(){}
+ // ~Makaron(){delete *Makaron;}
 };
 class Tagliatelle:public Makaron{
   private:
