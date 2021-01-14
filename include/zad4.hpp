@@ -6,14 +6,14 @@ using namespace std;
 double obliczMake(const vector<Tagliatelle>& maka){
 double M=0;
 int n=maka.size();
-for (auto n:maka){
-  M+=maka.ileMaki(n);
+for (auto i:maka){
+  M+=i.ileMaki(n);
   n--;
 }
   if(M>100)
   throw  (1);
   else if(M>50)
-  throw (0.5);
+  throw(double) (0.5);
 else
 return M;
 }
