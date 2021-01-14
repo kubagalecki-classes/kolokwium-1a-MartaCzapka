@@ -1,7 +1,14 @@
 #include "catch.hpp"
 #include<iostream>
+#include<string>
 using namespace std;
-class Tagliatelle{
+class Makaron{
+  public:
+  virtual double ileMaki(unsigned)const;
+  static Makaron* gotujMakaron(string);
+  ~Makaron(){}
+};
+class Tagliatelle:public Makaron{
   private:
   double L;
   double W;
