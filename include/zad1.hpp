@@ -2,13 +2,13 @@
 #include<iostream>
 #include<string>
 using namespace std;
-class Makaron{
-  public:
-  virtual double ileMaki(unsigned)const;
-  static Makaron* gotujMakaron(string);
+//class Makaron{
+ // public:
+//  virtual double ileMaki(unsigned)const;
+ //// static Makaron* gotujMakaron(string);
  // ~Makaron(){delete *Makaron;}
-};
-class Tagliatelle:public Makaron{
+//};
+class Tagliatelle{
   private:
   double L;
   double W;
